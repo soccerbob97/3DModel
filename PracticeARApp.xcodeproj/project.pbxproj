@@ -16,6 +16,9 @@
 		B83EF48B270247EF002F1F29 /* PracticeARAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83EF48A270247EF002F1F29 /* PracticeARAppTests.swift */; };
 		B83EF495270247EF002F1F29 /* PracticeARAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83EF494270247EF002F1F29 /* PracticeARAppUITests.swift */; };
 		B83EF497270247EF002F1F29 /* PracticeARAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83EF496270247EF002F1F29 /* PracticeARAppUITestsLaunchTests.swift */; };
+		B83EF4A42702498F002F1F29 /* uploads_files_2941243_retrotv0319.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B83EF4A32702498F002F1F29 /* uploads_files_2941243_retrotv0319.usdz */; };
+		B83EF4A627024A14002F1F29 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B83EF4A527024A14002F1F29 /* toy_biplane.usdz */; };
+		B83EF4A827025B6E002F1F29 /* Scan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B83EF4A727025B6E002F1F29 /* Scan.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		B83EF490270247EF002F1F29 /* PracticeARAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeARAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83EF494270247EF002F1F29 /* PracticeARAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeARAppUITests.swift; sourceTree = "<group>"; };
 		B83EF496270247EF002F1F29 /* PracticeARAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeARAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B83EF4A32702498F002F1F29 /* uploads_files_2941243_retrotv0319.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = uploads_files_2941243_retrotv0319.usdz; path = ../../../3DModels/uploads_files_2941243_retrotv0319.usdz; sourceTree = "<group>"; };
+		B83EF4A527024A14002F1F29 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_biplane.usdz; path = ../../../../../Downloads/toy_biplane.usdz; sourceTree = "<group>"; };
+		B83EF4A727025B6E002F1F29 /* Scan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Scan.usdz; path = ../../../../../Downloads/Scan.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,9 @@
 			children = (
 				B83EF494270247EF002F1F29 /* PracticeARAppUITests.swift */,
 				B83EF496270247EF002F1F29 /* PracticeARAppUITestsLaunchTests.swift */,
+				B83EF4A32702498F002F1F29 /* uploads_files_2941243_retrotv0319.usdz */,
+				B83EF4A527024A14002F1F29 /* toy_biplane.usdz */,
+				B83EF4A727025B6E002F1F29 /* Scan.usdz */,
 			);
 			path = PracticeARAppUITests;
 			sourceTree = "<group>";
@@ -229,8 +238,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B83EF4A827025B6E002F1F29 /* Scan.usdz in Resources */,
 				B83EF481270247EF002F1F29 /* LaunchScreen.storyboard in Resources */,
+				B83EF4A627024A14002F1F29 /* toy_biplane.usdz in Resources */,
 				B83EF47E270247EF002F1F29 /* Assets.xcassets in Resources */,
+				B83EF4A42702498F002F1F29 /* uploads_files_2941243_retrotv0319.usdz in Resources */,
 				B83EF47C270247EC002F1F29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +459,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +490,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
